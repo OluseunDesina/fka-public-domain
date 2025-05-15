@@ -1,6 +1,5 @@
-import React, { useState } from "react";
 import Button from "../Button/Button";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 interface CollectionListProps {
   collections: any[];

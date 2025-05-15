@@ -1,4 +1,3 @@
-import React from "react";
 import SectionTitle from "../SectionTItle/SectionTitle";
 
 const ContactForm = () => {
@@ -36,7 +35,7 @@ const ContactForm = () => {
               />
               <textarea
                 className="p-3 border rounded md:col-span-2"
-                rows="4"
+                rows={4}
                 placeholder="Message"
               ></textarea>
               <button className="bg-[#3C6D59] text-white px-6 py-2 rounded md:col-span-2">

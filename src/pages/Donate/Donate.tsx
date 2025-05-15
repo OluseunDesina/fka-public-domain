@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../../components/HeroImage/HeroImage";
 import Button from "../../components/Button/Button";
 

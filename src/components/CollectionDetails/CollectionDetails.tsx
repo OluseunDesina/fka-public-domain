@@ -1,4 +1,3 @@
-import React from "react";
 import CollectionList from "../CollectionList/CollectionList";
 import HeroImage from "../HeroImage/HeroImage";
 
