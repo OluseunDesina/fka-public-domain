@@ -11,7 +11,7 @@ const Home = () => {
         {/* Hero Section */}
         <section className="px-8">
           <HeroImage
-            imageLink="/src/assets/Home/hero-section.jpg"
+            imageLink="/assets/Home/hero-section.jpg"
             title="Musician performing"
           >
             <span className="flex gap-2 items-center">

@@ -7,14 +7,14 @@ const Collections = () => {
   const categories = [
     {
       title: "Government Publications",
-      image: "/src/assets/collections/government-publications.png",
+      image: "/assets/collections/government-publications.png",
     },
-    { title: "Newspaper", image: "/src/assets/collections/newspaper.png" },
-    { title: "Images", image: "/src/assets/collections/images.png" },
-    { title: "Books", image: "/src/assets/collections/books.png" },
+    { title: "Newspaper", image: "/assets/collections/newspaper.png" },
+    { title: "Images", image: "/assets/collections/images.png" },
+    { title: "Books", image: "/assets/collections/books.png" },
     {
       title: "Public Figures",
-      image: "/src/assets/collections/public-figures.png",
+      image: "/assets/collections/public-figures.png",
     },
   ];
 
@@ -24,19 +24,19 @@ const Collections = () => {
       type: "Book",
       description:
         "Published in 1922 by the Nigerian Chief Secretary's Office, this handbook provides insights into Nigeria's administrative and cultural landscape during the early 20th century.",
-      image: "/src/assets/collections/featured-book-collection.png",
+      image: "/assets/collections/featured-book-collection.png",
     },
     {
       title: "Nigerian Map",
       type: "Image",
       description: "Nigerian map Outline. Courtesy: Wikimedia Commons",
-      image: "/src/assets/collections/featured-map-collection.png",
+      image: "/assets/collections/featured-map-collection.png",
     },
     {
       title: "Nigerian Tribune, August 8, 1974",
       type: "Newspaper",
       description: "Nigerian newspaper. Publication date: August 8, 1974",
-      image: "/src/assets/collections/feature-newspaper-collection.png",
+      image: "/assets/collections/feature-newspaper-collection.png",
     },
   ];
   return (

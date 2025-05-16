@@ -7,19 +7,19 @@ const CollectionDetails = () => {
       title: "Nigerian Map",
       type: "Image",
       description: "Nigerian map Outline. Courtesy: Wikimedia Commons",
-      image: "/src/assets/collections/featured-map-collection.png",
+      image: "/assets/collections/featured-map-collection.png",
     },
     {
       title: "Nigerian Tribune, August 8, 1974",
       type: "Newspaper",
       description: "Nigerian newspaper. Publication date: August 8, 1974",
-      image: "/src/assets/collections/feature-newspaper-collection.png",
+      image: "/assets/collections/feature-newspaper-collection.png",
     },
   ];
   return (
     <>
       <div className="my-5">
-        <HeroImage imageLink="/src/assets/collections/book-details.png"></HeroImage>
+        <HeroImage imageLink="/assets/collections/book-details.png"></HeroImage>
       </div>
       <div className="px-32">
         <h3 className="text-black text-[48px] font-bold mb-0">

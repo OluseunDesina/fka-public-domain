@@ -6,7 +6,7 @@ const AboutUs = () => {
     <>
       {/* Header */}
       <HeroImage
-        imageLink="/src/assets/about-hero.jpg"
+        imageLink="/assets/about-hero.jpg"
         title="About Us"
       ></HeroImage>
       {/* About Us */}

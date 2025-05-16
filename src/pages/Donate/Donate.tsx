@@ -4,10 +4,7 @@ import Button from "../../components/Button/Button";
 const Donate = () => {
   return (
     <>
-      <HeroImage
-        imageLink="/src/assets/donate-hero.jpg"
-        title="Donate"
-      ></HeroImage>
+      <HeroImage imageLink="/assets/donate-hero.jpg" title="Donate"></HeroImage>
 
       <div className="flex mt-10 gap-4 px-6">
         <div className="text-justify text-[28px] basis-2/3">
