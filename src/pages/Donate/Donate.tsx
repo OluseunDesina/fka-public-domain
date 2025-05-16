@@ -82,7 +82,7 @@ const Donate = () => {
         </div>
         <div className="basis-1/3">
           <img
-            src="/src/assets/donate-video.png"
+            src="/assets/donate-video.png"
             className="w-full h-auto mb-5"
             alt="donation video"
           />

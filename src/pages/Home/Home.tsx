@@ -47,7 +47,7 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
             <div className="text-center">
               <img
-                src="/src/assets/Home/books.png"
+                src="/assets/Home/books.png"
                 alt="Books"
                 className="w-full rounded"
               />
@@ -55,7 +55,7 @@ const Home = () => {
             </div>
             <div className="text-center">
               <img
-                src="/src/assets/Home/government-publications.png"
+                src="/assets/Home/government-publications.png"
                 alt="Government Publications"
                 className="w-full rounded"
               />
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
             <div className="text-center">
               <img
-                src="/src/assets/Home/images.png"
+                src="/assets/Home/images.png"
                 alt="Images"
                 className="w-full rounded"
               />
@@ -106,7 +106,7 @@ const Home = () => {
               </Button>
             </div>
             <img
-              src="/src/assets/Home/about.png"
+              src="/assets/Home/about.png"
               alt="Audience"
               className="basis-1/3 h-auto w-full rounded"
             />
