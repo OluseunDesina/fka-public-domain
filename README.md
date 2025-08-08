@@ -1,54 +1,66 @@
-# React + TypeScript + Vite
+# Public Domain
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Public Domain is an open-source initiative by Free Knowledge Africa, the National Library of Nigeria, and other cultural heritage partners to make Nigeria's public domain works freely accessible online. The project digitizes, preserves, and shares books, images, and government publications so that anyone can explore the country's rich cultural and historical heritage.
 
-Currently, two official plugins are available:
+## Goals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Preserve and showcase Nigeria's cultural heritage.
+- Provide unrestricted access to public domain materials.
+- Encourage discovery and reuse of digitized works.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Browse collections of books, images and government publications.
+- Responsive interface built with React, TypeScript and Tailwind CSS.
+- Fast development and build tooling powered by Vite.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Development
+
+### Prerequisites
+
+- Node.js (18 or later) and npm
+
+### Setup
+
+```bash
+git clone https://github.com/<your-org>/public-domain.git
+cd public-domain
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Running in development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm run dev
 ```
+
+This starts a local development server and prints the URL in the console.
+
+### Building for production
+
+```bash
+npm run build
+```
+
+### Previewing the build
+
+```bash
+npm run preview
+```
+
+### Linting
+
+```bash
+npm run lint
+```
+
+## Contributing
+
+1. Fork the repository and create a feature branch.
+2. Make your changes and run `npm run lint`.
+3. Commit, push, and open a pull request describing your contribution.
+
+---
+
+This README focuses on project-specific information and omits generic Vite boilerplate.
+
