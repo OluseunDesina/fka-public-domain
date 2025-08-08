@@ -78,7 +78,7 @@ const Donate = () => {
 
           <p className="mb-8">
             Be part of this movement to reclaim, preserve, and share Nigeria’s
-            past. Support PtublicDomain.ng today.
+            past. Support PublicDomain.ng today.
           </p>
         </div>
         <div className="basis-1/3">
